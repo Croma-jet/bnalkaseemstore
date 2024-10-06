@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+    <link rel="stylesheet"  href="styles.css"/>
+    <link rel="tailwind" href="tailwind.config.js"/>
+    <link rel="javascript" href="script.js"/>
+  </head>
+<body>
+  <section2>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTybtT8CTk9-J8J8iEtyHZ8uYi4EiTVAMA_gQ&amp;s" class="sFlh5c FyHeAf" alt="What is a Computer?" jsname="JuXqh"
+         jsaction="VQAsE" class="r48jcc pT0Scc iPVvYb" style="max-width: 2560px; opacity: 1; transform: none; width: 360px; height: 301px; margin: 0px;" alt="What Is Career Development - Career Voice" jsname="kn3ccd" aria-hidden="false">
+      </div>
+    
+    <div class="mySlides fade">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3mR9D7T9b4SNNwQR6Kflb3HD0w7iptnPtkt6kbdvUVfA07ENlBt8uQE&amp;s=10 " jsaction="VQAsE" class="r48jcc pT0Scc iPVvYb" style="max-width: 2560px; opacity: 1; transform: none; width: 360px; height: 301px; margin: 0.5px 0px;" alt="SRMS “KSHITIJ”- A Path to Career Avenues | Shri Ram Murti Smarak ..." jsname="kn3ccd" aria-hidden="false">
+    
+    </div>
+    <div class="mySlides fade">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9f7ZA5XYvF3th1lG_WGRI8JKgeKodjVoBaBAVFZJEl1TIW5lGTJyXPrk&amp;s=10" jsaction="VQAsE" class="r48jcc pT0Scc iPVvYb" style="max-width: 2560px; opacity: 1; transform: none; width: 360px; height: 301px; margin: 0px;" alt="UTK's Center for Career Development | Child and Family Studies" jsname="kn3ccd" aria-hidden="false">
+    </div>
+    
+    <div class="mySlides fade">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgYcKSAQGkEekaL4wfta7pIxLkfTY1IFAYqpCLq2DVk6OaIkCpy4cWs9E&amp;s=10" jsaction="VQAsE" class="r48jcc pT0Scc iPVvYb" style="max-width: 2560px; opacity: 1; transform: none; width: 360px; height: 301px; margin: 0px;" alt="Skill - Careers in Sport" jsname="kn3ccd" aria-hidden="false">
+    
+    </div>
+    </div>
+      <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+    </div>
+      <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+    
+    
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    </section2>
+<hr/>
+<section class="list-image">
+  <ul class="list-outside md:list-inside">
+  <li id="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolYxbP8jIgGYaSNRtEVP7q7gVYjTCJU7rZg&amp;usqp=CAU "
+      width="200px" height="150px"/>
+      <aside class="sidebar" style="text-align:left;">
+        Diference types of computer,second hand. hp,acer,sony and others.
+        
+      </aside>
+  </li>
+  <hr/>
+<li id="image">
+<img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAEr-8q3MAi0SAFyMh5cjhBfO2nj9i8cLlLRoRcVVy34n4DqBC1Kqeuq6V&amp;s=10"  width="200px" height="150px"/>
+<aside class="sidebar" style="text-align:left;">Deference types of phone include smart phone and kaypart phone,in afordable price.</aside>
+</li>
+<hr/>
+<li id="image">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCfIG6EEA5sK1Ojsztcu1RHbNS1HWPyNeww&amp;usqp=CAU " width="200px"  height="150px"/>
+  <aside class="sidebar" style="text-align:left;">Phone assosaries like charger,cable,cover,earpace,memory, glass protecter and others.</aside>
+
+</li>
+  </ul>
+  <hr/>
+</section>
+<article class="list">
+
+<div class="product-container">
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdjoTRReEHhqusJ3mjqhB5L50KwZHjMhohYKRvGoy3yEvLZoctdMVPnI4&amp;s=10  " alt="Product 1">
+        <h3>Hp computer</h3>
+        <p>#70,000</p>
+        <button onclick="addToCart('Product 1')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_ESvWTd5Iqhvg3pxyhTufv4RQeRTyRqflxpoDDPo9C5A7BHN2H7Hp04&amp;s=10  " alt="Product 2">
+        <h3>Hp computer</h3>
+        <p>#70,000</p>
+        <button onclick="addToCart('Product 2')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPJJbH0XhnCicU-BfJm8x-5whyhaWITdaxpV8hq4CL3wdu4F_3fCL0rc-&amp;s=10 " alt="Product 3">
+        <h3>Acer</h3>
+        <p>#60,000</p>
+        <button onclick="addToCart('Product 3')">Add to Cart</button>
+    </div>
+</div>
+<div class="product-container">
+  <div class="product">
+      <img src="path-to-image1.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>$10.99</p>
+      <button onclick="addToCart('Product 1')">Add to Cart</button>
+  </div>
+
+  <div class="product">
+      <img src="path-to-image2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$12.99</p>
+      <button onclick="addToCart('Product 2')">Add to Cart</button>
+  </div>
+
+  <div class="product">
+      <img src="path-to-image3.jpg" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>$15.99</p>
+      <button onclick="addToCart('Product 3')">Add to Cart</button>
+  </div>
+</div>
+
+
+
+<script src="scripts.js"></script>
+</article>
+</body>
+</html>
